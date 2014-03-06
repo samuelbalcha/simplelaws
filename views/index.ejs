@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+ <title>Simplelaws.com</title>
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="http:////cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/carousle.css" rel="stylesheet">
+    <link href="/stylesheets/styles.css" rel="stylesheet">
+
+    <script>
+        /* Source:
+         http://www.learningjquery.com/2007/10/improved-animated-scrolling-script-for-same-page-links/
+         */
+
+        $(document).ready(function() {
+            function filterPath(string) {
+                return string
+                        .replace(/^\//,'')
+                        .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+                        .replace(/\/$/,'');
+            }
+            var locationPath = filterPath(location.pathname);
+            var scrollElem = scrollableElement('html', 'body');
+
+            $('a[href*=#]').each(function() {
+                var thisPath = filterPath(this.pathname) || locationPath;
+                if (  locationPath == thisPath
+                        && (location.hostname == this.hostname || !this.hostname)
+                        && this.hash.replace(/#/,'') ) {
+                    var $target = $(this.hash), target = this.hash;
+                    if (target) {
+                        var targetOffset = $target.offset().top;
+                        $(this).click(function(event) {
+                            event.preventDefault();
+                            $(scrollElem).animate({scrollTop: targetOffset}, 400, function() {
+                                location.hash = target;
+                            });
+                        });
+                    }
+                }
+            });
+
+            function scrollableElement(els) {
+                for (var i = 0, argLength = arguments.length; i <argLength; i++) {
+                    var el = arguments[i],
+                            $scrollElement = $(el);
+                    if ($scrollElement.scrollTop()> 0) {
+                        return el;
+                    } else {
+                        $scrollElement.scrollTop(1);
+                        var isScrollable = $scrollElement.scrollTop()> 0;
+                        $scrollElement.scrollTop(0);
+                        if (isScrollable) {
+                            return el;
+                        }
+                    }
+                }
+                return [];
+            }
+
+        });
+    </script>
+
+
+</head>
+<!-- NAVBAR
+================================================== -->
+<body class="pull_top">
+<div id="home" class="navbar-wrapper">
+    <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Simple laws</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="../images/img1.jpg" alt="" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Adultery Law</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#adultery" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../images/img2.jpg" alt="" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>DNA Testing law</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#dna" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../images/img3.jpg" alt="" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>The Four spiritual law</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#spiritual" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../images/img4.jpg" alt="" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Universal law</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#universal" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="../images/img5.jpg" alt="" />
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Judgment law</h1>
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p><a class="btn btn-lg btn-primary" href="#judgment" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.carousel-inner -->
+    <!--  Next and Previous controls -->
+
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+
+</div><!-- /.carousel -->
+
+<hr/>
+<div class="container">
+
+     <div  id="adultery" class="row">
+         <div class="col-md-2">
+             <img class="img-circle" data-src="holder.js/140x140/sky/text:Adultery" alt="adultery">
+         </div>
+         <div class="col-md-8">
+            <h3>Adultery</h3>
+            <p>We give advise on adultery related issues. Adultery laws are...</p>
+         </div>
+     </div>
+    <div  id="dna" class="row">
+        <div class="col-md-2">
+            <img class="img-circle" data-src="holder.js/140x140/vine/text:DNA Testing" alt="dna">
+        </div>
+        <div class="col-md-8">
+            <h3>DNA Testing</h3>
+            <p>We give advise on DNA testing related issues. Adultery laws are...</p>
+        </div>
+    </div>
+    <div  id="universal" class="row">
+        <div class="col-md-2">
+            <img class="img-circle" data-src="holder.js/140x140/social/text:Universal" alt="universal">
+        </div>
+        <div class="col-md-8">
+            <h3>Universal</h3>
+            <p>We give advise on universal related issues. Adultery laws are...</p>
+        </div>
+    </div>
+    <div  id="spiritual" class="row">
+        <div class="col-md-2">
+            <img class="img-circle" data-src="holder.js/140x140/industrial/text:Four spiritual" alt="four spiritual">
+        </div>
+        <div class="col-md-8">
+            <h3>The four spiritual</h3>
+            <p>We give advise on adultery related issues. Adultery laws are...</p>
+        </div>
+    </div>
+
+    <div  id="judgment" class="row">
+        <div class="col-md-2">
+            <img class="img-circle" data-src="holder.js/140x140/bright/text:Judgment" alt="judgment">
+        </div>
+        <div class="col-md-8">
+            <h3>Judgment</h3>
+            <p>We give advise on adultery related issues. Adultery laws are...</p>
+        </div>
+    </div>
+
+
+ </div>
+
+</div><!-- /.container -->
+
+
+<div class="container">
+
+    <section id="about">
+        <h2> About Us </h2>
+        <p>
+            simplelaws.com is powered by SmartName to bring you targeted search terms designed specifically to enhance the users overall online search experience. simplelaws.com displays the top advertisers for and more. We've taken the confusion out of searching online, allowing you to find what you want in a timely manner.
+
+            We understand everyone searches with different criteria in mind. That's why we've designed simplelaws.com to be navigated on your terms. simplelaws.com brings you the most comprehensive group of advertisers in an easily navigated format, giving users a vast range of choices in as few clicks as possible.</p>
+    </section>
+
+    <section id="contact">
+        <h2> Contact Us </h2>
+        <p>
+            simplelaws.com is powered by SmartName to bring you targeted search terms designed specifically to enhance the users overall online search experience. simplelaws.com displays the top advertisers for and more. We've taken the confusion out of searching online, allowing you to find what you want in a timely manner.
+
+            We understand everyone searches with different criteria in mind. That's why we've designed simplelaws.com to be navigated on your terms. simplelaws.com brings you the most comprehensive group of advertisers in an easily navigated format, giving users a vast range of choices in as few clicks as possible.</p>
+    </section>
+</div>
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container">
+        <div class="row info">
+            <div class="col-sm-6 residence">
+                <ul>
+                    <li>1234 East Lamar Blvd. City, Austin.</li>
+                    <li>United States, Zip Code TX 76006.</li>
+                </ul>
+            </div>
+            <div class="col-sm-5 touch">
+                <ul>
+                    <li><strong>P.</strong> 1 202 36185 37</li>
+                    <li><strong>E.</strong><a href="#"> info@simplelaws.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row credits">
+            <div class="col-md-12">
+                <div class="row social">
+                    <div class="span12">
+                        <a href="#" class="facebook">
+                            <span class="socialicons ico1"></span>
+                            <span class="socialicons_h ico1h"></span>
+                        </a>
+                        <a href="#" class="twitter">
+                            <span class="socialicons ico2"></span>
+                            <span class="socialicons_h ico2h"></span>
+                        </a>
+                        <a href="#" class="gplus">
+                            <span class="socialicons ico3"></span>
+                            <span class="socialicons_h ico3h"></span>
+                        </a>
+                        <a href="#" class="flickr">
+                            <span class="socialicons ico4"></span>
+                            <span class="socialicons_h ico4h"></span>
+                        </a>
+                        <a href="#" class="pinterest">
+                            <span class="socialicons ico5"></span>
+                            <span class="socialicons_h ico5h"></span>
+                        </a>
+                        <a href="#" class="dribble">
+                            <span class="socialicons ico6"></span>
+                            <span class="socialicons_h ico6h"></span>
+                        </a>
+                        <a href="#" class="behance">
+                            <span class="socialicons ico7"></span>
+                            <span class="socialicons_h ico7h"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="col-md-12">
+                        © 2014 Simple laws. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="/javascripts/docs.js"></script>
+<script>Holder.add_theme("bright", { background: "navy", foreground: "white", size: 20 }) </script>
+<!-- <script src="/javascripts/jquery-scroll.js"></script> -->
+</body>
+</html>
