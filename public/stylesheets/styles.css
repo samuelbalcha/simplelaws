@@ -40,3 +40,71 @@ body {
     padding: 20px ;
 }
 
+#sec-1{
+    background-image: -o-linear-gradient(top, #2EF5D7 9%, #6BFFF8 50%);
+    background-image: -moz-linear-gradient(top, #2EF5D7 9%, #6BFFF8 50%);
+    background-image: -webkit-linear-gradient(top, #2EF5D7 9%, #6BFFF8 50%);
+    background-image: -ms-linear-gradient(top, #2EF5D7 9%, #6BFFF8 50%);
+    background-image: linear-gradient(to top, #2EF5D7 9%, #6BFFF8 50%);
+color: #ffffff;
+}
+
+/* Fonts */
+.poiret {
+ font-family: 'Poiret One', cursive;
+    color: black;
+}
+.belgrano {
+    font-family: 'Belgrano', serif;
+}
+.montez{
+    font-family: 'Montez', cursive;
+}
+.flamenco{
+    font-family: 'Flamenco', cursive;
+}
+.droid{
+    font-family: 'Droid Sans Mono', sans-serif;
+}
+.josef{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.von {
+    font-family: 'Herr Von Muellerhoff', cursive;
+}
+.gafata{
+    font-family: 'Gafata', sans-serif;
+}
+.lusitana{
+    font-family: 'Lusitana', serif;
+}
+.sofadi{
+    font-family: 'Sofadi One', cursive;
+}
+.fanwoood{
+    font-family: 'Fanwood Text', serif;
+}
+
+.inconsolata{
+    font-family: 'Inconsolata', sans-serif;
+}
+.arizona{
+    font-family: 'Arizonia', cursive;
+}
+.audiowide{
+    font-family: 'Audiowide', cursive;
+
+}
+.oregano{
+    font-family: 'Oregano', cursive;
+}
+
+.blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+.black{
+    color:black;
+}
