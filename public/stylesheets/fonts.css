@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Arizonia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arizonia'), local('Arizonia-Regular'), url(http://themes.googleusercontent.com/static/fonts/arizonia/v4/8Usm7f8XTsZinW2e-ZMd5XYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Audiowide'), local('Audiowide-Regular'), url(http://themes.googleusercontent.com/static/fonts/audiowide/v2/8XtYtNKEyyZh481XVWfVOrO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+    font-family: 'Belgrano';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Belgrano'), local('Belgrano-Regular'), url(http://themes.googleusercontent.com/static/fonts/belgrano/v4/9nICvxZmkDv7_ninPVYjoXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Condiment';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Condiment'), local('Condiment-Regular'), url(http://themes.googleusercontent.com/static/fonts/condiment/v2/H3zUdSYh9r5ccxclUWaH7rO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+    font-family: 'Droid Sans Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Sans Mono'), local('DroidSansMono'), url(http://themes.googleusercontent.com/static/fonts/droidsansmono/v5/ns-m2xQYezAtqh7ai59hJaH0X__W3S3MJL29bc5CWfs.woff) format('woff');
+}
+@font-face {
+    font-family: 'Fanwood Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fanwood Text'), local('FanwoodText-Regular'), url(http://themes.googleusercontent.com/static/fonts/fanwoodtext/v4/hDNDHUlsSb8bgnEmDp4T_qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+    font-family: 'Flamenco';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Flamenco'), local('Flamenco-Regular'), url(http://themes.googleusercontent.com/static/fonts/flamenco/v4/Ih-SipknQN9xiiZItSGWE3YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Gafata';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gafata'), local('Gafata-Regular'), url(http://themes.googleusercontent.com/static/fonts/gafata/v3/QgBsUT7IYkuK0zcmWhu2q-vvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+    font-family: 'Gilda Display';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gilda Display'), local('GildaDisplay-Regular'), url(http://themes.googleusercontent.com/static/fonts/gildadisplay/v2/8yAVUZLLZ3wb7dSsjix0CNlxEeKqwlazdFKolw326gM.woff) format('woff');
+}
+@font-face {
+    font-family: 'Herr Von Muellerhoff';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Herr Von Muellerhoff Regular'), local('HerrVonMuellerhoff-Regular'), url(http://themes.googleusercontent.com/static/fonts/herrvonmuellerhoff/v4/mmy24EUmk4tjm4gAEjUd7BZdmO0QrABSNVXd4IeB3h_3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Inconsolata'), url(http://themes.googleusercontent.com/static/fonts/inconsolata/v7/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Inconsolata Bold'), local('Inconsolata-Bold'), url(http://themes.googleusercontent.com/static/fonts/inconsolata/v7/AIed271kqQlcIRSOnQH0yRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Josefin Sans'), local('JosefinSans'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v4/xgzbb53t8j-Mo-vYa23n5qRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/josefinsans/v4/C6HYlRF50SGJq1XyXj04zxAPw1J91axKNXP_-QX9CC8.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lusitana';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lusitana'), url(http://themes.googleusercontent.com/static/fonts/lusitana/v2/tAIvAkRzqMJf8Y4fM1R7PXYhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+@font-face {
+    font-family: 'Lusitana';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lusitana Bold'), local('Lusitana-Bold'), url(http://themes.googleusercontent.com/static/fonts/lusitana/v2/oCjlVB3OWc0D00Ervq8JG7rIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+    font-family: 'Montez';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montez'), local('Montez-Regular'), url(http://themes.googleusercontent.com/static/fonts/montez/v4/Ww9DrCS2WNNzzypZe0hgpuvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+}
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Poiret One'), local('PoiretOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/poiretone/v2/HrI4ZJpJ3Fh0wa5ofYMK8b3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+    font-family: 'Sofadi One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sofadi One'), local('SofadiOne-Regular'), url(http://themes.googleusercontent.com/static/fonts/sofadione/v2/T28dLve-Ycdi1yHVhvAlyb3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v4/ViZhet7Ak-LRXZMXzuAfkbrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(http://themes.googleusercontent.com/static/fonts/ubuntumono/v4/ceqTZGKHipo8pJj4molythbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+}
