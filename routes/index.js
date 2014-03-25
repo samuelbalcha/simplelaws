@@ -11,3 +11,7 @@ exports.onlycoin = function(req, res){
 
     res.render('onlycoinstyle', { title: 'Only coin style' });
 }
+
+exports.custom = function(req, res){
+    res.render('custom', { title : 'Custom'});
+}

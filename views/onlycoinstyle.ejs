@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,136 +17,136 @@
     <link href="/stylesheets/fonts.css" rel="stylesheet">
     <link href="/stylesheets/bootstrap.css" rel="stylesheet">
 
-<style>
-    body{
-        font-family: 'Montserrat', sans-serif;
-
-        background-color: #e0e0e0;
-    }
-    .pitch{
-        padding-top: 0;
-        padding-left: 15%;
-    }
-    .navbar-inner{ min-height: 50px; }
-.navbar{ border: 0px; }
-    .navbar .brand:hover { color: #000000;}
-    .navbar-inverse .navbar-inner{background-color:#1b1b1b;}
-    /* desktop */
-    @media (min-width:980px){
+    <style>
         body{
-            padding-top:60px;
+            font-family: 'Montserrat', sans-serif;
+
+            background-color: #e0e0e0;
         }
-        .linediv-l{
-            border-right:1px white solid;
+        .pitch{
+            padding-top: 0;
+            padding-left: 15%;
         }
-        .linediv-r{
-            border-left:1px white solid;
+        .navbar-inner{ min-height: 50px; }
+        .navbar{ border: 0px; }
+        .navbar .brand:hover { color: #000000;}
+        .navbar-inverse .navbar-inner{background-color:#1b1b1b;}
+        /* desktop */
+        @media (min-width:980px){
+            body{
+                padding-top:60px;
+            }
+            .linediv-l{
+                border-right:1px white solid;
+            }
+            .linediv-r{
+                border-left:1px white solid;
+            }
         }
-    }
-    /* Landscape phones and down */
-    @media (max-width:480px){
-        .copy{
-            padding:2.5% 10%;
+        /* Landscape phones and down */
+        @media (max-width:480px){
+            .copy{
+                padding:2.5% 10%;
+            }
+            .linediv-l{
+                border-bottom:1px white solid;
+            }
+            .linediv-r{
+                border-top:1px white solid;
+            }
         }
-        .linediv-l{
-            border-bottom:1px white solid;
+
+        /* Main body and headings */
+
+        .offset1 {
+            margin-left: 120px;
         }
-        .linediv-r{
-            border-top:1px white solid;
+
+        p.lead{
+            padding-top:1.5%;
+            font-size:24px;
+            line-height:30px;
         }
-    }
+        p{
+            font-size:18px;
+            line-height:24px;
+        }
 
-    /* Main body and headings */
+        /* Video pitch and Action */
+        .pitch{
+            padding:2.5% 0%;
+        }
+        .order{
+            padding:2% 0%;
+        }
+        .actions{
+            background-color:#343434;
+            padding:3% 0%;
+            margin-top:6%;
+        }
+        .video, .thermometer, .order, .social,.statistics {
+            text-align:center;
+        }
+        .statistics h3, .statistics p{
+            color:white;
+        }
 
-.offset1 {
-    margin-left: 120px;
-}
+        /* Marketing Copy and Footer */
+        .copy {
+            /* padding-top:2.5%; */
+            padding-bottom:2.5%;
+            text-align:justify;
+        }
+        .asset{
+            padding:2.5% 0%;
+        }
+        .footer{
+            color:#cccccc;
+            text-align:center;
+        }
+        .footer p{
+            font-size:11px;
+        }
+        .footer a{
+            color:#ccccff;
+        }
+        div.addthis_toolbox{
+            width:180px;
+            margin:0 auto;
+        }
+        .heading, .subheading {
+            font-family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
+            text-align: center;
+            padding-top: 15px;;
+        }
+        .heading h2 {
+            padding-top: 10px;
+        }
 
-    p.lead{
-        padding-top:1.5%;
-        font-size:24px;
-        line-height:30px;
-    }
-    p{
-        font-size:18px;
-        line-height:24px;
-    }
-
-    /* Video pitch and Action */
-    .pitch{
-        padding:2.5% 0%;
-    }
-    .order{
-        padding:2% 0%;
-    }
-    .actions{
-        background-color:#343434;
-        padding:3% 0%;
-        margin-top:6%;
-    }
-    .video, .thermometer, .order, .social,.statistics {
-        text-align:center;
-    }
-    .statistics h3, .statistics p{
-        color:white;
-    }
-
-    /* Marketing Copy and Footer */
-    .copy {
-       /* padding-top:2.5%; */
-        padding-bottom:2.5%;
-        text-align:justify;
-    }
-    .asset{
-        padding:2.5% 0%;
-    }
-    .footer{
-        color:#cccccc;
-        text-align:center;
-    }
-    .footer p{
-        font-size:11px;
-    }
-    .footer a{
-        color:#ccccff;
-    }
-    div.addthis_toolbox{
-        width:180px;
-        margin:0 auto;
-    }
-    .heading, .subheading {
-        font-family: 'Ubuntu Mono', Helvetica, Arial, sans-serif;
-        text-align: center;
-        padding-top: 15px;;
-    }
-    .heading h2 {
-        padding-top: 10px;
-    }
-
-    #footer {
-        min-height: 200px;
-        margin-top: 140px;
-        background-color: #252528;
-        color: #fff;
-        padding-top: 35px;
-    }
-    .col-md-4 {
-        width: 33.33333333%;
-    }
-    .info-head{
-        font-size: 12px;
-        position: absolute;
-        top:48px;
-        font-family: 'Poiret One', cursive;
-        color: #b2b2b2;
-    }
-    .brand, .logo {
-        font-size: 25px;
-        font-family: 'Droid Sans Mono';
-    }
+        #footer {
+            min-height: 200px;
+            margin-top: 140px;
+            background-color: #252528;
+            color: #fff;
+            padding-top: 35px;
+        }
+        .col-md-4 {
+            width: 33.33333333%;
+        }
+        .info-head{
+            font-size: 12px;
+            position: absolute;
+            top:48px;
+            font-family: 'Poiret One', cursive;
+            color: #b2b2b2;
+        }
+        .brand, .logo {
+            font-size: 25px;
+            font-family: 'Droid Sans Mono';
+        }
 
 
-</style>
+    </style>
 </head>
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top">
@@ -158,8 +159,8 @@
             </button>
             <div class="row-fluid">
                 <h1 class="brand logo" href="/onlycoin">Simplelaw</h1>
-             <p class="info-head">Simple for clients & simple for lawyers</p>
-           </div>
+                <p class="info-head">Simple for clients & simple for lawyers</p>
+            </div>
         </div>
     </div>
 </div>
@@ -176,37 +177,37 @@
             <p class="lead">Connect & focus on your core competence </p>
         </div>
     </div> -->
-   <div class="row-fluid offset1 copy">
+    <div class="row-fluid offset1 copy">
 
-       <div class="row-fluid">
-           <div class="span12 heading">
-               <h2>Are you a lawyer?</h2>
-           </div>
-       </div>
+        <div class="row-fluid">
+            <div class="span12 heading">
+                <h2>Are you a lawyer?</h2>
+            </div>
+        </div>
 
-     <div class="span12">
-     <iframe  width="85%" height="550px" src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0" frameborder="0" allowfullscreen></iframe>
-   </div>
-  </div>
+        <div class="span12">
+            <iframe  width="85%" height="550px" src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
 </div>
 <div class="row-fluid" style="background: #ffffff; min-height: 300px; padding: 3px;">
- <div class="container offset1">
+    <div class="container offset1">
 
-    <div class="col-md-4">
-        <img class="img-circle" data-src="holder.js/180x180/default/text:Connect" alt="connect"
-             style="width: 180px; height: 180px;">
-    </div>
-    <div class="col-md-4">
-        <img class="img-circle" data-src="holder.js/180x180/vine/text:Share" alt="share"
-             style="width: 180px; height: 180px;">
+        <div class="col-md-4">
+            <img class="img-circle" data-src="holder.js/180x180/default/text:Connect" alt="connect"
+                 style="width: 180px; height: 180px;">
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" data-src="holder.js/180x180/vine/text:Share" alt="share"
+                 style="width: 180px; height: 180px;">
+
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" data-src="holder.js/180x180/industrial/text:Focus" alt="focus"
+                 style="width: 180px; height: 180px;">
+        </div>
 
     </div>
-    <div class="col-md-4">
-        <img class="img-circle" data-src="holder.js/180x180/industrial/text:Focus" alt="focus"
-             style="width: 180px; height: 180px;">
-    </div>
-
- </div>
 </div>
 
 <div class="container">
