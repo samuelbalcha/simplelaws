@@ -7,9 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Simplelaw.com</title>
-    <link href="/stylesheets/fonts.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
+    <!--link href="/stylesheets/fonts.css" type="text/css" rel="stylesheet" /-->
     <link href='http://fonts.googleapis.com/css?family=Habibi|Alegreya+Sans:700,300italic' rel='stylesheet' type='text/css'>
-    </head>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Allerta' rel='stylesheet' type='text/css'>
+
+
+   </head>
 <style>
  body {
      font-family: 'Alegreya Sans', sans-serif;
@@ -19,30 +23,33 @@
  }
 
  .nav{
-        border: 1px solid #ffffff;
-        position: fixed;
-        max-height: 72px;
-        background-color: #ffffff;
-        box-shadow: 1px 2px 4px #888888;
-        width:100%;
+
+     border: 1px solid #ffffff;
+     position: fixed;
+    max-height: 85px;
+     background-color: #ffffff;
+     box-shadow: 1px 2px 4px #888888;
+     width: 100%;
+     padding: 10px;
+     top: 0px;
     }
     .logo{
+
         padding-top: 3px;
-        padding-left: 35px;
-        font-family:"Ubuntu Mono";
-        font-weight: normal;
-        letter-spacing: normal;
-    }
+        padding-left: 65px;
+     }
 
 
  .logo h1{
-     font-size: 40px;
+     font-size: 32px;
      color:#046792;
+     font-family:'Allerta', sans-serif;
+     font-weight:900;
 
  }
     .logo p {
-      margin-top: -25px;
-        color:#ffffff;
+         font-family:'Habibi';
+
     }
     .screen{
         top:0;
@@ -54,7 +61,7 @@
         color:gray;
     }
     .first{
-         background-color: #3e86ac;
+        /* background-color: #3e86ac;   */
          width:auto;
          padding-top:40px;
 
@@ -67,11 +74,15 @@
         height:100%;
     }
     .first h1{
-        text-align:center;
         color:#ffffff;
-        padding-top: 60px;
-        padding-bottom: 10px;
-    }
+        text-align:center;
+        padding-bottom: 15px;
+        padding-top: 150px;
+        padding-left: 15%;
+        font-size:28px;
+        font-weight: bold;
+        text-rendering: optimizelegibility;
+     }
 
     .video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
              width: 100%;
@@ -80,7 +91,7 @@
         .video-wrapper iframe {
             max-width: 720px;
             max-height: 405px;
-            padding-left:19%;
+            padding-left:25%;
             /* margin: 60px 0 10px 195px;  */
         }
 
@@ -92,129 +103,155 @@
     }
 
     .type1 {
-        width: 200px;
-        height: 200px;
-        background: #046792;
+        width: 175px;
+        height: 175px;
+       /* background: #046792;  */
     }
 
     .type1 h1 {
         text-align:center;
         color: #ffffff;
-        padding-top:30%;
+        padding-top:40%;
+        padding-left:0;
     }
     .pitch {
       overflow:hidden;
-      padding-left:145px;
+      padding-left:22%;
     }
 
    .first p {
-       font-size: 24px;
+       font-size: 22px;
        line-height: 30px;
        color: #ffffff;
        text-align: center;
        margin-top: -25px;
+       padding-left: 15%;
+       padding-bottom: 20px;
+       padding-top: 5px;
     }
 
-   .first h1,h2 {
-
-        font-family: inherit;
-        font-weight: bold;
-        line-height: 20px;
-        color: #ffffff;
-        text-rendering: optimizelegibility;
-    }
-
-     .second{
-         background:#046792;
+   .second {
+        /* background:#046792;  */
          width:auto;
          padding-top:40px;
-         margin-top: -20px;
+
       }
+
      .second h1 {
-
-          font-family: inherit;
-          font-weight: bold;
-          line-height: 20px;
-
-          text-rendering: optimizelegibility;
-          padding-top: 60px;
-          padding-bottom: 10px;
-
-      }
+      color: #ffffff;
+      text-align: center;
+      padding-bottom: 15px;
+      padding-top: 50px;
+      padding-left: 15%;
+      font-size: 28px;
+      font-weight: bold;
+      text-rendering: optimizelegibility;
+     }
 
     .second p {
-        font-size: 24px;
-        line-height: 30px;
-
-        text-align: center;
-        margin-top: -25px;
+      font-size: 22px;
+      line-height: 30px;
+      color: #ffffff;
+      text-align: center;
+      margin-top: -20px;
+      padding-left: 15%;
+      padding-bottom: 20px;
+      padding-top: 5px;
      }
 
      .type2 {
-         width: 200px;
-         height: 200px;
-         background: #3e86ac;
+         width: 175px;
+         height: 175px;
+        /* background: #3e86ac; */
 
      }
 
      .type2 h1 {
-         text-align:center;
+         text-align: center;
          color: #ffffff;
-         padding-top:30%;
+         padding-top: 40%;
+         padding-left: 0;
+    }
+    .footer{
+      min-height: 150px;
+
+      background-color: #e0e0e0;
      }
-
-
+    .footer p{
+        color: #000000;
+        padding: 50px;
+        font-size:15px;
+    }
 </style>
+
 <body>
 <div class="screen">
   <div class="nav">
     <div class="logo">
-        <h1>Simple<span class="law">law</span><span class="com">.com</span> </h1>
-        <p>simple for clients & simple for lawyers </p>
+        <h1>SIMPLE<span class="law">LAW</span><span class="com">.com</span> </h1>
+        <p data-0="color:rgb(0,0,0)" data-300="color:rgb(4,103,146);">simple for clients & simple for lawyers </p>
     </div>
   </div>
-  <div class="first">
+  <div class="first" data-50="background-color:rgb(62,134,172);" data-650="background-color:rgb(4,103,146);">
        <h1> Are you a lawyer?</h1>
        <p class="lead"> Watch the video to learn more on how we can help you. </p>
        <div class="video-wrapper">
           <iframe  src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0" frameborder="0" allowfullscreen></iframe>
        </div>
-   <div class="pitch">
-      <div class="circleBase type1">
+    <div class="pitch">
+      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
         <h1> Connect </h1>
       </div>
 
-      <div class="circleBase type1">
+      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
           <h1> Share </h1>
       </div>
 
-      <div class="circleBase type1">
+      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
           <h1> Focus </h1>
-       </div>
-   </div
+      </div>
+    </div
   </div>
-  <div class="second">
+
+  <div class="second" data-650="background-color:rgb(4,103,146);" data-1100="background-color:rgb(62,134,172);">
           <h1> Are you looking for a legal service?</h1>
           <p class="lead"> Watch the video to learn more on how we can help you. </p>
           <div class="video-wrapper">
               <iframe  src="//www.youtube.com/embed/3yyWwpDKhiw?rel=0"  frameborder="0" allowfullscreen></iframe>
           </div>
-
       <div class="pitch">
-         <div class="circleBase type2">
+         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
            <h1> Find </h1>
          </div>
 
-         <div class="circleBase type2">
+         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
              <h1> Schedule </h1>
          </div>
 
-         <div class="circleBase type2">
+         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
              <h1> Track </h1>
           </div>
       </div>
-    </div>
  </div>
 
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:50px;top:40%;">
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_google_plusone_share"></a>
+    </div>
+    <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5202a5e43d094621"></script>
+    <!-- AddThis Button END -->
+
+  <div class="footer">
+         <p>   © 2014 Simplelaw.com </p>
+  </div>
+ </div>
+
+<script src="/javascripts/skrollr.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init();
+    </script>
 </body>
 </html>
