@@ -35,7 +35,7 @@
       <file leaf-file-name="custom.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/custom.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="29" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5873786" vertical-offset="297" max-vertical-offset="2670">
+            <state line="101" column="32" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.7815534" vertical-offset="1032" max-vertical-offset="2775">
               <folding />
             </state>
           </provider>
@@ -648,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/custom.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="29" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5873786" vertical-offset="297" max-vertical-offset="2670">
+        <state line="101" column="32" selection-start="2488" selection-end="2488" vertical-scroll-proportion="0.7815534" vertical-offset="1032" max-vertical-offset="2775">
           <folding />
         </state>
       </provider>
