@@ -8,180 +8,95 @@
     <meta name="author" content="">
     <title>Simplelaw.com</title>
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
-    <!--link href="/stylesheets/fonts.css" type="text/css" rel="stylesheet" /-->
+    <link href="/stylesheets/custom.css" type="text/css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Habibi|Alegreya+Sans:700,300italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Allerta' rel='stylesheet' type='text/css'>
 
 
    </head>
 <style>
- body {
-     font-family: 'Alegreya Sans', sans-serif;
-     background-color: #e0e0e0;
-     margin:0;
-     -webkit-font-smoothing: antialiased;
- }
 
- .nav{
 
-     border: 1px solid #ffffff;
-     position: fixed;
-    max-height: 85px;
-     background-color: #ffffff;
-     box-shadow: 1px 2px 4px #888888;
-     width: 100%;
-     padding: 10px;
-     top: 0px;
-    }
-    .logo{
-
-        padding-top: 3px;
-        padding-left: 65px;
+     @media (max-width: 400px) {
+      
+         .video-wrapper iframe {
+             height: 200px;
+             width:300px;
+             padding-left: 45px;
+         }
+         .addthis{
+             top:17%;
+         }
+         .first p, .second p{
+             font-size: 17px;
+         }
+         .pitch{
+             padding-left: 45px;
+         }
      }
+     @media (min-width: 401px) and (max-width: 800px) {
 
-
- .logo h1{
-     font-size: 32px;
-     color:#046792;
-     font-family:'Allerta', sans-serif;
-     font-weight:900;
-
- }
-    .logo p {
-         font-family:'Habibi';
-
-    }
-    .screen{
-        top:0;
-    }
-    .law{
-        color: #000000;
-    }
-    .com{
-        color:gray;
-    }
-    .first{
-        /* background-color: #3e86ac;   */
-         width:auto;
-         padding-top:40px;
-
-         margin-top: -20px;
+         .video-wrapper iframe {
+             height: 305px;
+             width:520px;
+             padding-left: 15%;
+         }
+         .pitch{
+             padding-left: 15%;
+         }
+         .type1{
+             width: 155px;
+             height: 155px;
+         }
+         .circleBase{
+             margin-top: 45px;
+             margin-left: 2%;
+             margin-bottom: 50px;
+         }
+         .type2{
+             width: 155px;
+             height: 155px;
+         }
      }
+     @media (min-width: 801px) and (max-width: 950px){
 
-    .video-wrapper {
 
-        width: 100%;
-        height:100%;
-    }
-    .first h1{
-        color:#ffffff;
-        text-align:center;
-        padding-bottom: 15px;
-        padding-top: 150px;
-        padding-left: 15%;
-        font-size:28px;
-        font-weight: bold;
-        text-rendering: optimizelegibility;
-     }
-
-    .video-wrapper iframe, .video-wrapper object, .video-wrapper embed {
-             width: 100%;
-            height: 100%;
-        }
-        .video-wrapper iframe {
-            max-width: 720px;
-            max-height: 405px;
-            padding-left:25%;
-            /* margin: 60px 0 10px 195px;  */
+       .video-wrapper iframe {
+          height: 405px;
+          padding-left:10%;
         }
 
-    .circleBase {
-        margin:45px;
-        border-radius: 50%;
-        behavior: url(PIE.htc);
-        float:left;
-    }
-
-    .type1 {
-        width: 175px;
-        height: 175px;
-       /* background: #046792;  */
-    }
-
-    .type1 h1 {
-        text-align:center;
-        color: #ffffff;
-        padding-top:40%;
-        padding-left:0;
-    }
-    .pitch {
-      overflow:hidden;
-      padding-left:22%;
-    }
-
-   .first p {
-       font-size: 22px;
-       line-height: 30px;
-       color: #ffffff;
-       text-align: center;
-       margin-top: -25px;
-       padding-left: 15%;
-       padding-bottom: 20px;
-       padding-top: 5px;
-    }
-
-   .second {
-        /* background:#046792;  */
-         width:auto;
-         padding-top:40px;
-
-      }
-
-     .second h1 {
-      color: #ffffff;
-      text-align: center;
-      padding-bottom: 15px;
-      padding-top: 50px;
-      padding-left: 15%;
-      font-size: 28px;
-      font-weight: bold;
-      text-rendering: optimizelegibility;
+       .pitch {
+           padding-left:11%;
+       }
+       .circleBase{
+           margin-top: 45px; margin-left: 15px; margin-right: 55px; margin-bottom: 50px;
+       }
+       .addthis{
+             top:18%;
+       }
      }
 
-    .second p {
-      font-size: 22px;
-      line-height: 30px;
-      color: #ffffff;
-      text-align: center;
-      margin-top: -20px;
-      padding-left: 15%;
-      padding-bottom: 20px;
-      padding-top: 5px;
-     }
+     @media (min-width: 951px)
+     {
 
-     .type2 {
-         width: 175px;
-         height: 175px;
-        /* background: #3e86ac; */
+         .first h1, p{
+             padding-left: 2%;
+         }
+         .video-wrapper iframe {
+
+             padding-left:24%;
+         }
+
+         .pitch {
+             padding-left:21%;
+         }
+         .second h1, p{
+             padding-left: 2%;
+         }
 
      }
 
-     .type2 h1 {
-         text-align: center;
-         color: #ffffff;
-         padding-top: 40%;
-         padding-left: 0;
-    }
-    .footer{
-      min-height: 150px;
-
-      background-color: #e0e0e0;
-     }
-    .footer p{
-        color: #000000;
-        padding: 50px;
-        font-size:15px;
-    }
 </style>
 
 <body>
@@ -189,53 +104,53 @@
   <div class="nav">
     <div class="logo">
         <h1>SIMPLE<span class="law">LAW</span><span class="com">.com</span> </h1>
-        <p data-0="color:rgb(0,0,0)" data-300="color:rgb(4,103,146);">simple for clients & simple for lawyers </p>
+        <p data-0p="color:rgb(0,0,0)" data-10p="color:rgb(4,103,146);">simple for clients & simple for lawyers </p>
     </div>
   </div>
-  <div class="first" data-50="background-color:rgb(62,134,172);" data-650="background-color:rgb(4,103,146);">
+  <div class="first" data-0p="background-color:rgb(62,134,172);" data-50p="background-color:rgb(4,103,146);">
        <h1> Are you a lawyer?</h1>
-       <p class="lead"> Watch the video to learn more on how we can help you. </p>
+       <p> Watch the video to learn more on how we can help you. </p>
        <div class="video-wrapper">
           <iframe  src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0" frameborder="0" allowfullscreen></iframe>
        </div>
     <div class="pitch">
-      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
+      <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
         <h1> Connect </h1>
       </div>
 
-      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
+      <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
           <h1> Share </h1>
       </div>
 
-      <div class="circleBase type1" data-500="background-color:rgb(4,103,146);" data-700="background-color:rgb(62,134,172);">
+      <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
           <h1> Focus </h1>
       </div>
     </div
   </div>
 
-  <div class="second" data-650="background-color:rgb(4,103,146);" data-1100="background-color:rgb(62,134,172);">
+  <div class="second" data-65p="background-color:rgb(4,103,146);" data-90p="background-color:rgb(62,134,172);">
           <h1> Are you looking for a legal service?</h1>
-          <p class="lead"> Watch the video to learn more on how we can help you. </p>
+          <p> Watch the video to learn more on how we can help you. </p>
           <div class="video-wrapper">
               <iframe  src="//www.youtube.com/embed/3yyWwpDKhiw?rel=0"  frameborder="0" allowfullscreen></iframe>
           </div>
       <div class="pitch">
-         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
+         <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
            <h1> Find </h1>
          </div>
 
-         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
+         <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
              <h1> Schedule </h1>
          </div>
 
-         <div class="circleBase type2" data-900="background-color:rgb(62,134,172);" data-1100="background-color:rgb(4,103,146);">
+         <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
              <h1> Track </h1>
           </div>
       </div>
  </div>
 
     <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style" style="left:50px;top:40%;">
+    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style addthis">
     <a class="addthis_button_facebook"></a>
     <a class="addthis_button_twitter"></a>
     <a class="addthis_button_google_plusone_share"></a>
