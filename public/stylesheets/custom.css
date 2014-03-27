@@ -71,6 +71,7 @@ body {
 .video-wrapper iframe {
     max-width: 720px;
     max-height: 405px;
+    height: 405px;
 }
 .circleBase {
     margin:45px;
