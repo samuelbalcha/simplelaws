@@ -27,7 +27,7 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', routes.custom);
 app.get('/onlycoin', routes.onlycoin);
 app.get('/custom', routes.custom);
 

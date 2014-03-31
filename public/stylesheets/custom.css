@@ -1,5 +1,5 @@
 body {
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Allerta ', sans-serif;
     margin:0;
     -webkit-font-smoothing: antialiased;
 }
@@ -17,6 +17,7 @@ body {
     width: 100%;
     padding: 10px;
     top: 0px;
+    z-index: 99;
 }
 .logo{
     padding-top: 3px;
@@ -29,7 +30,7 @@ body {
     font-weight:900;
 }
 .logo p {
-    font-family:'Habibi';
+    font-family: 'Allerta', sans-serif;
 }
 .law{
     color: #000000;
@@ -43,14 +44,24 @@ body {
 }
 
 .first h1{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 120px;
+    font-size: 1.9em;
+    text-rendering: optimizelegibility;
+    padding-left: 5%;
+}
+
+.first h2{
     color:#ffffff;
     text-align:center;
     padding-bottom: 15px;
-    padding-top: 150px;
+    padding-top: 40%;
     font-size:28px;
-    font-weight: bold;
     text-rendering: optimizelegibility;
 }
+
 .first p {
     font-size: 22px;
     line-height: 30px;
@@ -74,7 +85,10 @@ body {
     height: 405px;
 }
 .circleBase {
-    margin:45px;
+
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-left: 6%;
     border-radius: 50%;
     behavior: url(PIE.htc);
     float:left;
@@ -82,6 +96,9 @@ body {
 .type1 {
     width: 175px;
     height: 175px;
+}
+.type1:hover {
+    opacity: 0.8;
 }
 
 .type1 h1 {
@@ -108,6 +125,15 @@ body {
     text-rendering: optimizelegibility;
 }
 
+.second h2{
+    color:#ffffff;
+    text-align:center;
+    padding-bottom: 15px;
+    padding-top: 40%;
+    font-size:28px;
+    text-rendering: optimizelegibility;
+}
+
 .second p {
     font-size: 22px;
     line-height: 30px;
@@ -122,22 +148,84 @@ body {
     width: 175px;
     height: 175px;
 }
-
+.type2:hover {
+    opacity: 0.8;
+}
 .type2 h1 {
     text-align: center;
     color: #ffffff;
     padding-top: 40%;
 }
 .footer{
-    min-height: 150px;
-    background-color: #e0e0e0;
+    height: 100px;
+    background-color: #ffffff;
 }
 .footer p{
     color: #000000;
     padding: 50px;
     font-size:15px;
 }
-.addthis{
-    left:50px;
-    top:40%;
+
+.footer a{
+    text-decoration: none;
+}
+.footer nav {
+    position: relative;
+    float: left;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.footer nav a{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(4, 103, 146);
+}
+
+.footer nav a:hover{
+    color: rgb(62, 134, 172);
+}
+
+.footer ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.footer ul li{
+    display: inline;
+}
+
+.footer .social{
+    float: right;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+.facebook{
+    background-position: -0px -40px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+
+}
+.twitter{
+    background-position: -0px -40px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.linkedin{
+    background-position: -0px -40px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+.box{
+    background: #ececec;
+    margin-bottom: 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 20%;
+    min-height: 120px;
+    margin: 45px;
 }

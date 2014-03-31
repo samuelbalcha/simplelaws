@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
     <link href="/stylesheets/custom.css" type="text/css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Habibi|Alegreya+Sans:700,300italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Allerta' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Allerta|Prociono' rel='stylesheet' type='text/css'>
 
 
    </head>
@@ -24,14 +24,22 @@
              width:300px;
              padding-left: 45px;
          }
-         .addthis{
-             top:17%;
+         .circleBase{
+             margin-top: 35px; margin-left: 32px;  margin-bottom: 35px;
          }
          .first p, .second p{
              font-size: 17px;
          }
          .pitch{
-             padding-left: 45px;
+             padding-left: 17%;
+         }
+         .type1{
+             width: 135px;
+             height: 135px;
+         }
+         .type2{
+             width: 135px;
+             height: 135px;
          }
      }
      @media (min-width: 401px) and (max-width: 800px) {
@@ -42,54 +50,51 @@
              padding-left: 15%;
          }
          .pitch{
-             padding-left: 10%;
+             padding-left: 12.5%;
          }
          .type1{
-             width: 155px;
-             height: 155px;
+             width: 135px;
+             height: 135px;
          }
          .circleBase{
              margin-top: 45px;
-             margin-left: 2%;
+             margin-left: 6%;
              margin-bottom: 50px;
          }
          .type2{
-             width: 155px;
-             height: 155px;
+             width: 135px;
+             height: 135px;
          }
      }
      @media (min-width: 801px) and (max-width: 950px){
 
-
        .video-wrapper iframe {
           height: 405px;
-          padding-left:10%;
+          padding-left:10.5%;
         }
 
        .pitch {
-           padding-left:11%;
+           padding-left:11.5%;
        }
        .circleBase{
            margin-top: 45px; margin-left: 15px; margin-right: 55px; margin-bottom: 50px;
        }
-       .addthis{
-             top:18%;
-       }
+
      }
 
      @media (min-width: 951px) and (max-width: 1100px)
      {
 
-         .first, .second h1, p{
+         .first h1, .first p, .second h1, p{
              padding-left: 2%;
          }
          .video-wrapper iframe {
 
-             padding-left:24%;
+             padding-left: 15%;
          }
 
          .pitch {
-             padding-left:21%;
+             padding-left:11%;
          }
 
          .logo p{
@@ -101,10 +106,10 @@
      {
          .video-wrapper iframe {
 
-             padding-left:26%;
+             padding-left:23%;
          }
          .pitch {
-             padding-left:24%;
+             padding-left:22%;
          }
      }
 
@@ -119,60 +124,71 @@
     </div>
   </div>
   <div class="first" data-0p="background-color:rgb(62,134,172);" data-50p="background-color:rgb(4,103,146);">
-       <h1> Are you a lawyer?</h1>
+       <h1> Are you looking for an attorney? </h1>
 
        <div class="video-wrapper">
           <iframe  src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
        </div>
     <div class="pitch">
       <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
-        <h1> Connect </h1>
+        <h2> Connect </h2>
       </div>
 
       <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
-          <h1> Share </h1>
+          <h2> Share </h2>
       </div>
 
       <div class="circleBase type1" data-50p="background-color:rgb(4,103,146);" data-70p="background-color:rgb(62,134,172);">
-          <h1> Focus </h1>
+          <h2> Focus </h2>
       </div>
     </div
   </div>
 
-  <div class="second" data-65p="background-color:rgb(4,103,146);" data-90p="background-color:rgb(62,134,172);">
+
+ <div class="second" data-85p="background-color:rgb(4,103,146);" data-100p="background-color:rgb(62,134,172);">
           <h1> Are you looking for a legal service?</h1>
-         
+
           <div class="video-wrapper">
               <iframe  src="//www.youtube.com/embed/3yyWwpDKhiw?rel=0&showinfo=0"  frameborder="0" allowfullscreen></iframe>
           </div>
       <div class="pitch">
          <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
-           <h1> Find </h1>
+           <h2> Find </h2>
          </div>
 
          <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
-             <h1> Schedule </h1>
+             <h2> Schedule </h2>
          </div>
 
          <div class="circleBase type2" data-80p="background-color:rgb(62,134,172);" data-95p="background-color:rgb(4,103,146);">
-             <h1> Track </h1>
+             <h2> Track </h2>
           </div>
       </div>
  </div>
 
-    <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style addthis">
-    <a class="addthis_button_facebook"></a>
-    <a class="addthis_button_twitter"></a>
-    <a class="addthis_button_google_plusone_share"></a>
-    </div>
-    <script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5202a5e43d094621"></script>
-    <!-- AddThis Button END -->
 
-  <div class="footer">
-         <p>   © Simplelaw.com </p>
+<div class="footer">
+     <nav>
+       <ul>
+         <li><a href="#"> About </a></li>
+         <li><a href="#"> Contact </a></li>
+      </ul>
+    </nav>
+   <div class="social">
+      <a href="https://www.facebook.com/simplelaw">
+        <img class="facebook" src="/images/facebook.png">
+      </a>
+      <a href="https://twitter.com/intent/user?screen_name=simplelaw">
+         <img class="twitter" src="/images/twitter.png">
+      </a>
+      <a href="https://www.linkedin.com/company/simplelaw">
+         <img class="linkedin" src="/images/linkedin.png">
+      </a>
   </div>
+</div>
+
+
+
  </div>
 
 <script src="/javascripts/skrollr.js"></script>
