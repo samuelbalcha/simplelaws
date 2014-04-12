@@ -30,6 +30,7 @@ if ('development' == app.get('env')) {
 app.get('/', routes.custom);
 app.get('/onlycoin', routes.onlycoin);
 app.get('/custom', routes.custom);
+app.get('/client', routes.client);
 
 //app.get('*', routes.index);
 

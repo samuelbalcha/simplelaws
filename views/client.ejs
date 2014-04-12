@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" >
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Simplelaw.com</title>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.7.0/build/reset/reset-min.css">
+    <link href="/stylesheets/custom.css" type="text/css" rel="stylesheet">
+    <link href="/stylesheets/client.css" type="text/css" rel="stylesheet">
+    <link href="/javascripts/jquery.bxslider/jquery.bxslider.css" type="text/css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Habibi|Alegreya+Sans:700,300italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,700italic|Allerta|Prociono' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+
+</head>
+<style>
+    html {
+        background-color: #e0e0e0;
+    }
+    body{
+        background-color: #e0e0e0;
+       /* font-family:  museo-sans,Helvetica,Arial,sans-serif; */
+    }
+    .nav{
+        margin:0;
+        padding:0;
+    }
+    .nav ul {
+        text-align: left;
+        position: relative;
+        height: 63px;
+    }
+    .nav a{
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-left: 30px;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(4, 103, 146);
+    }
+    .logo{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .logo h1{
+        font-size: 26px;
+        margin-top: -6px;
+    }
+    .nav li {
+        margin-left: 2em;
+        width: auto;
+        line-height: 60px;
+        float: left;
+        /* vertical-align: middle; */
+        display: inline-block;
+    }
+    .t-body-text {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .logo{
+        padding-top: 5px;
+        padding-left: 8.2%;
+        padding-bottom: 3px;
+    }
+    .footer{
+        position: relative;
+        clear: both;
+    }
+    .footer nav {
+        margin-left: 0;
+        padding-left: 6%;
+    }
+.slogan{
+    right: 22%;
+    left: 25%;
+    padding-top: 50px;
+    max-width: 75%;
+    position: absolute;
+}
+.slogan h2 {
+    margin-top: 35px;
+    margin-bottom: 8px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 900;
+}
+.slogan p{
+    font-size: 20px;
+    padding-bottom: 3px;
+}
+.slogan a{
+
+}
+.main{
+
+    background-color: #046792;
+    position: relative;
+    min-height: 310px;
+    top:65px;
+    color: #e0e0e0;
+}
+
+ .btn {
+
+     border-radius: 3px;
+     -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+     -ms-border-radius: 3px;
+     -o-border-radius: 3px;
+     vertical-align: middle;
+     background-color: #1abc9c;
+     border: #1abc9c;
+     text-transform: uppercase;
+     margin: 0 5px;
+     cursor: pointer;
+     -webkit-transition: background-color .5s;
+     -moz-transition: background-color .5s;
+     -o-transition: background-color .5s;
+     transition: background-color .5s;
+
+     font-weight: 300;
+     color: #fff;
+     font-style: normal;
+     font-size: 20px;
+     height: 49px;
+     padding: 0 1em;
+     margin-top: 1em;
+    }
+.play{
+
+    margin-left: 6%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    behavior: url(PIE.htc);
+    float:left;
+}
+.inner{
+    width: 20px;
+    height: 20px;
+    padding: 6px;
+    font-size: xx-small;
+    -webkit-font-smoothing: antialiased;
+  }
+.pitch{
+  padding: 1.5em;
+    position: relative;
+    background: #f1f1f1;
+    top:65px;
+}
+.pitch h2{
+    text-transform: uppercase;
+
+    -webkit-font-smoothing: antialiased;
+    font-family: "source-sans-pro","Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-style: normal;
+    font-size: 2.5em;
+    position: absolute;
+    left: 25%;
+}
+ .box{
+     top: 2.2em;
+    /* margin: 45px 10px 20px 10px;*/
+     background: transparent;
+     border: 0;
+  }
+.icon-holder h4{
+    ont-family: "source-sans-pro","Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+    color: #1abc9c;
+    font-style: normal;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+}
+    .box p{
+        width: 280px;
+        margin: 0 auto;
+        line-height: 1.5em;
+        font-family: "ff-tisa-web-pro","adelle","Adelle","Merriweather",Georgia,serif;
+        font-weight: 300;
+        color: #000;
+        font-style: normal;
+        font-size: 16px;
+        text-align: center;
+    }
+    .short-line{
+        width: 102px;
+        border-bottom: 1px solid #c5c5c5;
+        margin: 75px auto 0;
+    }
+    .box-container{
+        min-height: 140px;
+        height: 100%;
+        position: relative;
+
+        margin-left: 100px;
+    }
+    .long-line{
+        width: 70%;
+        border-bottom: 1px solid #c5c5c5;
+        margin: 20px auto 0;
+    }
+    /* Glyph, by Harry Roberts */
+
+    hr.style-eight {
+        padding: 0;
+        border: none;
+        border-top: medium double #333;
+        color: #333;
+        text-align: center;
+        width: 70%;
+    }
+    hr.style-eight:after {
+        content: "S";
+        display: inline-block;
+        position: relative;
+        top: -0.7em;
+        font-size: 1em;
+        padding: 0 0.25em;
+        background: white;
+    }
+.pull-right{
+    padding-left:  18%;
+}
+
+</style>
+
+<body>
+<div class="nav">
+    <ul>
+        <li class="logo">
+            <h1>  SIMPLE<span class="law">LAW</span><span class="com"></span></h1>
+        </li>
+        <li class="t-body-text">
+            <a href="how"> How it works </a>
+        </li>
+        <li class="t-body-text">
+           <a href="lawyers"> Lawyers </a>
+        </li>
+
+        <li class="t-body-text">
+           <a href="about">About us</a>
+        </li>
+    </ul>
+
+</div>
+<div class="screen">
+    <div class="main">
+        <div class="slogan">
+         <h2> Looking for lawyers?</h2>
+         <p> Find and schedule a local attorney. Track the status of your case.</p>
+         <button class="btn video-link" data-video-id="y-wvqTAVTSzgg">
+             Learn more
+         </button>
+        </div>
+    </div>
+    <div class="pitch">
+        <h2> Simplelaw is the network you need:</h2>
+        <div class="short-line"></div>
+      <div class="box-container">
+        <div class="box">
+          <div class="icon-holder">
+            <h4>Choose</h4>
+          </div>
+            <p>Work with an attorney of your choice and get your case right and to speed.</p>
+        </div>
+        <div class="box">
+           <div class="icon-holder">
+             <h4>Communicate</h4>
+            </div>
+            <p>With our online tools, you can share documents, handle payments and sign papers via the web.</p>
+        </div>
+        <div class="box">
+            <div class="icon-holder">
+             <h4>Compare</h4>
+            </div>
+            <p>Get the best service for less the price. Make your decision after comparing quotes. </p>
+        </div>
+      </div>
+      <hr class="style-eight"/>
+        <h2 class="pull-right"> Why join us</h2>
+        <div class="short-line">
+
+        </div>
+
+    </div>
+
+ <!--
+           <div class="bx-wrapper scale">
+               <div class="bx-viewport">
+                <ul class="bxslider">
+                 <li>
+                    <div>
+                      <h2> Looking for lawyers?</h2>
+                      <p> Find and schedule a local attorney. Track the status of your case.</p>
+                    </div>
+                 </li>
+                <li>
+                   <iframe  src="//www.youtube.com/embed/wvqTAVTSzgg?rel=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
+                </li>
+              </ul>
+             </div>
+           </div>
+  -->
+ </div>
+<!--
+<div class="footer">
+    <nav>
+        <ul>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Contact </a></li>
+        </ul>
+    </nav>
+    <div class="social">
+        <a href="https://www.facebook.com/simplelaw">
+            <img class="facebook" src="/images/facebook.png">
+        </a>
+        <a href="https://twitter.com/intent/user?screen_name=simplelaw">
+            <img class="twitter" src="/images/twitter.png">
+        </a>
+        <a href="https://www.linkedin.com/company/simplelaw">
+            <img class="linkedin" src="/images/linkedin.png">
+        </a>
+    </div>
+</div>
+-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="/javascripts/jquery.bxslider/plugins/jquery.fitvids.js"></script>
+<script src="/javascripts/jquery.bxslider/jquery.bxslider.js"></script>
+
+<link href="/javascripts/jquery.bxslider/jquery.bxslider.css" type="text/css"/>
+<script src="/javascripts/skrollr.js"></script>
+<script src="/javascripts/video-lighting.js"></script>
+<script type="text/javascript">
+   // var s = skrollr.init();
+   $(document).ready(function(){
+
+       $(function() {
+           $(".video-link").jqueryVideoLightning({
+               autoplay: 1,
+               color: "white",
+               backdrop_opacity: 0.5,
+               showinfo:0
+           });
+       });
+
+
+     /*
+       $('.bxslider').bxSlider({
+           video: true,
+           useCSS: false
+       });
+    */
+   });
+</script>
+</body>
+</html>

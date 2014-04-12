@@ -13,5 +13,9 @@ exports.onlycoin = function(req, res){
 }
 
 exports.custom = function(req, res){
-    res.render('custom', { title : 'Custom'});
+    res.render('custom', { title : 'Simplelaw'});
+}
+
+exports.client = function(req, res){
+    res.render('client', { title : 'Simplelaw'});
 }
