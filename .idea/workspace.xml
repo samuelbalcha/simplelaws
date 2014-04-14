@@ -44,8 +44,10 @@
       <file leaf-file-name="client.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/client.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="20" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.6359223" vertical-offset="1362" max-vertical-offset="5580">
-              <folding />
+            <state line="284" column="23" selection-start="6636" selection-end="6636" vertical-scroll-proportion="0.49029127" vertical-offset="3957" max-vertical-offset="6465">
+              <folding>
+                <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -688,8 +690,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/client.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="20" selection-start="2912" selection-end="2912" vertical-scroll-proportion="0.6359223" vertical-offset="1362" max-vertical-offset="5580">
-          <folding />
+        <state line="284" column="23" selection-start="6636" selection-end="6636" vertical-scroll-proportion="0.49029127" vertical-offset="3957" max-vertical-offset="6465">
+          <folding>
+            <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
