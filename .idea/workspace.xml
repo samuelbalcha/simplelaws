@@ -26,7 +26,7 @@
       <file leaf-file-name="custom.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/custom.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="59" selection-start="3437" selection-end="3448" vertical-scroll-proportion="-18.875" vertical-offset="1482" max-vertical-offset="3060">
+            <state line="110" column="17" selection-start="2842" selection-end="2842" vertical-scroll-proportion="-12.0" vertical-offset="1362" max-vertical-offset="3060">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
+            <state line="10" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
               <folding />
             </state>
           </provider>
@@ -44,20 +44,35 @@
       <file leaf-file-name="client.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/client.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="23" selection-start="6636" selection-end="6636" vertical-scroll-proportion="0.49029127" vertical-offset="3957" max-vertical-offset="6465">
+            <state line="302" column="21" selection-start="7048" selection-end="7048" vertical-scroll-proportion="0.55825245" vertical-offset="4185" max-vertical-offset="6240">
               <folding>
-                <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#9586#10210#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video-lighting.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/video-lighting.js">
+      <file leaf-file-name="lawyers.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/lawyers.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="457" column="29" selection-start="19740" selection-end="19740" vertical-scroll-proportion="0.0" vertical-offset="6230" max-vertical-offset="6945">
+            <state line="38" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="24.375" vertical-offset="1155" max-vertical-offset="2805">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#style#0;n#h2#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/logo.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="443" column="14" selection-start="14893" selection-end="14893" vertical-scroll-proportion="-87.0" vertical-offset="3402" max-vertical-offset="5880">
+              <folding>
+                <element signature="tag#ul#0;tag#div#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,12 +115,14 @@
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/onlycoinstyle.ejs" />
         <option value="$PROJECT_DIR$/views/st" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/custom.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/client.css" />
         <option value="$PROJECT_DIR$/public/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/public/javascripts/video-lighting.js" />
+        <option value="$PROJECT_DIR$/views/lawyers.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/logo.ejs" />
         <option value="$PROJECT_DIR$/views/client.ejs" />
       </list>
     </option>
@@ -243,28 +260,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icons" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -276,7 +271,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/skrollr-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/demo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -372,30 +367,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/index.js</url>
-          <line>14</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/carousle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="0" selection-start="4286" selection-end="4286" vertical-scroll-proportion="0.0" vertical-offset="2823" max-vertical-offset="3465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="25" selection-start="2723" selection-end="2723" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="9165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="23" selection-start="5147" selection-end="5147" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="1965">
@@ -632,20 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="540" selection-end="540" vertical-scroll-proportion="0.519084" vertical-offset="20" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.14018692" vertical-offset="0" max-vertical-offset="642">
@@ -657,7 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="457" column="29" selection-start="19740" selection-end="19740" vertical-scroll-proportion="0.0" vertical-offset="6230" max-vertical-offset="6945">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -665,13 +626,6 @@
     <entry file="file://$PROJECT_DIR$/public/images/video_play.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/custom.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="59" selection-start="3437" selection-end="3448" vertical-scroll-proportion="-18.875" vertical-offset="1482" max-vertical-offset="3060">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/client.css">
@@ -683,16 +637,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
+        <state line="10" column="0" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3570">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="39" selection-start="561" selection-end="561" vertical-scroll-proportion="0.5954198" vertical-offset="0" max-vertical-offset="655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="824" selection-end="824" vertical-scroll-proportion="0.77099234" vertical-offset="20" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/custom.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="17" selection-start="2842" selection-end="2842" vertical-scroll-proportion="-12.0" vertical-offset="1362" max-vertical-offset="3060">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/lawyers.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1129" selection-end="1129" vertical-scroll-proportion="24.375" vertical-offset="1155" max-vertical-offset="2805">
+          <folding>
+            <element signature="n#style#0;n#h2#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/logo.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="14" selection-start="14893" selection-end="14893" vertical-scroll-proportion="-87.0" vertical-offset="3402" max-vertical-offset="5880">
+          <folding>
+            <element signature="tag#ul#0;tag#div#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/client.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="23" selection-start="6636" selection-end="6636" vertical-scroll-proportion="0.49029127" vertical-offset="3957" max-vertical-offset="6465">
+        <state line="302" column="21" selection-start="7048" selection-end="7048" vertical-scroll-proportion="0.55825245" vertical-offset="4185" max-vertical-offset="6240">
           <folding>
-            <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#9586#10210#0" expanded="false" />
           </folding>
         </state>
       </provider>

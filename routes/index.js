@@ -19,3 +19,10 @@ exports.custom = function(req, res){
 exports.client = function(req, res){
     res.render('client', { title : 'Simplelaw'});
 }
+
+exports.lawyers = function(req, res){
+    res.render('lawyers', { title : 'Lawyers'});
+}
+exports.logo = function(req, res){
+    res.render('logo', { title : 'Logos'});
+}

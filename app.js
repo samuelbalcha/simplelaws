@@ -31,6 +31,8 @@ app.get('/', routes.custom);
 app.get('/onlycoin', routes.onlycoin);
 app.get('/custom', routes.custom);
 app.get('/client', routes.client);
+app.get('/lawyers', routes.lawyers);
+app.get('/logo', routes.logo);
 
 //app.get('*', routes.index);
 
